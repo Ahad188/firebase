@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
      return (
-          <div>
+          <div className='text-3xl text-red-800 text-center'>
                footer section done
           </div>
      );
