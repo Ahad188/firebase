@@ -1,9 +1,16 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
      return (
           <div>
-               <h1>this is a Header section</h1>
+                <nav className='mt-4 '>
+                    <ul className='flex justify-around items-center max-md:'>
+                         <NavLink to="/">Home</NavLink>
+                         <NavLink to="/about">about</NavLink>
+                         <NavLink to="/login">Login</NavLink>
+                    </ul>
+                </nav>
           </div>
      );
 };
